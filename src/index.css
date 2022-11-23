@@ -64,6 +64,14 @@ table {
 a {
   text-decoration: none;
 }
+.logo {
+  height: 210px;
+}
+
+button {
+  height: 50px;
+}
+
 button {
   cursor: pointer;
   border-radius: 10px;
@@ -75,14 +83,15 @@ button:hover {
   background-color: rgb(162, 13, 150);
   color: white;
 }
-.cname {
-  color: rgb(117, 16, 160);
-  margin-right: 30px;
-}
+
 .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.cname {
+  color: rgb(117, 16, 160);
+  margin-right: 30px;
 }
 .contest-name {
   display: flex;
@@ -92,11 +101,4 @@ button:hover {
 }
 .sub-content {
   margin-left: 70px;
-}
-.logo {
-  height: 210px;
-}
-
-button {
-  height: 50px;
 }
